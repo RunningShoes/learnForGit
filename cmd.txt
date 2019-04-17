@@ -1,0 +1,15 @@
+
+
+	date：0417
+	git初始化：
+		git init
+
+	git查看历史状态：
+		git status：查看仓库的状态，可以看看那些文件被修改了
+		git diff <file>:查看某个文件具体的修改
+
+	git 提交代码：
+		git add <file>
+		git commit -m "注释"
+
+	git
