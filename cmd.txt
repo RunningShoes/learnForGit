@@ -1,6 +1,7 @@
 
 
-	date：0417
+date：04_17
+
 	git初始化：
 		git init
 
@@ -12,4 +13,8 @@
 		git add <file>
 		git commit -m "注释"
 
-	git
+	git 
+
+
+
+
