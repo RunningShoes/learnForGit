@@ -7,11 +7,11 @@ date：04_17
 
 	git查看历史状态：
 		git status：查看仓库的状态，可以看看那些文件被修改了
-		git diff <file>:查看某个文件具体的修改
+		git diff <file>:查看某个文件具体的修改,加上参数--cached或者--staged表示比较暂存区和仓库分支里面信息的差别。
 
 	git 提交代码：
-		git add <file>
-		git commit -m "注释"
+		git add <file>     //把文件添加到暂存区（index，stage）
+		git commit -m "注释"    //把暂存区的文件提交到主干
 
 date: 04_18:
 
@@ -21,7 +21,9 @@ date: 04_18:
 	版本回退：
 		git reset --hard HEAD^<num>//代表回退数目
 		git reset --hard commit_id   //回到当时的版本
-		git relog   //回退时找不到log的方法
+		git reflog   //回退时找不到log的方法
+
+
 
 
 
