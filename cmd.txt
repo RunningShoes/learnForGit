@@ -13,7 +13,10 @@ date：04_17
 		git add <file>
 		git commit -m "注释"
 
-	git 
+date: 04_18:
+
+	查看提交日志：
+		git log
 
 
 
