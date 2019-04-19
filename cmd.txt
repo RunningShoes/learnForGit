@@ -8,6 +8,7 @@ date：04_17
 	git查看历史状态：
 		git status：查看仓库的状态，可以看看那些文件被修改了
 		git diff <file>:查看某个文件具体的修改,加上参数--cached或者--staged表示比较暂存区和仓库分支里面信息的差别。
+		git diff HEAD --<filename>:查看该文件工作区与版本库的差别		
 
 	git 提交代码：
 		git add <file>     //把文件添加到暂存区（index，stage）
