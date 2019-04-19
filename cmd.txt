@@ -27,9 +27,12 @@ date: 04_18:
 
 date: 04_19:   git保存的内容是修改而不是文件
 
-		git reset HEAD <file>  :把暂存区的文件退回工作区
-		git checkout --<file>  ：一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+		git reset HEAD <file>  :把暂存区的文件退回工作区,相当于放弃所有工作区的修改
+		git checkout -- <file>  ：一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
 					 一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
 
+		git rm <file>          :删除版本库中的file文件
+					如果删除了一个文件，可以用git rm <file>,也可以用git checkout -- <file>会退到删除前         
 
+date: 0420:    
 
