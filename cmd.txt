@@ -25,8 +25,11 @@ date: 04_18:
 		git reflog   //回退时找不到log的方法
 
 
+date: 04_19:   git保存的内容是修改而不是文件
 
-date: 04_19:
+		git reset HEAD <file>  :把暂存区的文件退回工作区
+		git checkout --<file>  ：一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+					 一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
 
 
 
