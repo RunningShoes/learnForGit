@@ -27,6 +27,7 @@ date: 04_18:
 
 date: 04_19:   git保存的内容是修改而不是文件
 
+	一些撤销命令：		
 		git reset HEAD <file>  :把暂存区的文件退回工作区,相当于放弃一次git add
 		git checkout -- <file>  ：一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
 					 一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
@@ -34,5 +35,12 @@ date: 04_19:   git保存的内容是修改而不是文件
 		git rm <file>          :删除版本库中的file文件
 					如果删除了一个文件，可以用git rm <file>,也可以用git checkout -- <file>会退到删除前         
 
-date: 0420:    
+date: 0420:    建立远程库以及git推到远程库上面:
+		git remote add origin git@server-name:path/repo-name.git；把本地的repository和远程连接起来，远程名字叫orgin
+	
+	跪一次推送：
+		git push -u origin master  ：第一次推送，后续可以不加-u
 
+
+
+		
