@@ -44,6 +44,7 @@ date: 04_20:    建立远程库以及git推到远程库上面:
 		git pull  :拉分支与当前代码合并
 		git pull origin master:master :参数分别是远程主机名 远程分支名字 本地分支名字(本地分支名字可以省略)
 
+	从远程库拉分支：先建立一个远程库，选择Initialize this repository with a README，然后git clone git@github.com:RunningShoes/learningForGit.git
 
 
 
