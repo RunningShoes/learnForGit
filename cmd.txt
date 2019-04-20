@@ -35,7 +35,7 @@ date: 04_19:   git保存的内容是修改而不是文件
 		git rm <file>          :删除版本库中的file文件
 					如果删除了一个文件，可以用git rm <file>,也可以用git checkout -- <file>会退到删除前         
 
-date: 0420:    建立远程库以及git推到远程库上面:
+date: 04_20:    建立远程库以及git推到远程库上面:
 		git remote add origin git@server-name:path/repo-name.git；把本地的repository和远程连接起来，远程名字叫orgin
 	
 	跪一次推送：
