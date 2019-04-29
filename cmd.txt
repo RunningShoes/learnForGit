@@ -52,4 +52,8 @@ date: 04_22:  none
 
 date: 04_23:  
 
-
+date: 04_28:	提交文件夹(第一册提交时，文件夹里面一定要有文件存在)
+		
+		git add .                   :提交全部的文件夹
+		git add /file document name :提交某个文件夹下面的内容
+		
