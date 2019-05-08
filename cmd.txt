@@ -56,4 +56,12 @@ date: 04_28:	提交文件夹(第一册提交时，文件夹里面一定要有文
 		
 		git add .                   :提交全部的文件夹
 		git add /file document name :提交某个文件夹下面的内容
-		
+
+date: 05_08:   分支管理
+
+		git checkout -b dev         :新建一个dev的分支,同时切换到该分支上
+					     相当于  git branch dev     创建分支
+						     git checkout dev   切换分支
+
+
+				
