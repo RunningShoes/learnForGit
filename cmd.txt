@@ -93,4 +93,6 @@ date: 05_08:   分支管理：
 		git stash drop  	   :stash apply后删除stash里面的内容
 		git stash pop		   :git stash apply  +  git stash pop
 		git stash apply stash@{0}  :恢复指定stash
-	
+	     
+	        git branch -d branchname   :删除分支
+		git branch -D branchname   :强制删除该条分支
