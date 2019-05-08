@@ -74,4 +74,19 @@ date: 05_08:   分支管理：
 
 
 
- 	      分支管理策略：
+ 	      分支管理策略：通常master是最稳定的分支，其他的工作内容通常存在于其他的分支上。
+		
+	       前面所说的合并值得是fast-forward快速合并，并不新建一个commit id，此时不会丢掉分支的信息
+
+		git merge --no-ff dev      :合并dev分支到当前的分支里面
+
+	      
+	      创建bug分支：如果需要修改bug，可以通过git stash把暂停工作区的内容先存下来
+
+		git stash                  :把工作区的内容存起来
+		git stash list             :查看stash里面存储的内容
+		git stash apply            :恢复stash的内容，但是不删除stash里面的内容
+		git stash drop  	   :stash apply后删除stash里面的内容
+		git stash pop		   :git stash apply  +  git stash pop
+		git stash apply stash@{0}  :恢复制定stash
+	
