@@ -64,10 +64,7 @@ date: 05_08:   分支管理
 						     git checkout dev   切换分支
 		
 		git merge dev               :将dev分支的内容合并到当前的分支上来
-		git branch -d dev	    :删除当前分支。
-
-
-sssadsdadsasdasdadas sdadadadasdad dsadadad
+		git branch -d dev	    :删除当前分支。Creating a new branch is quick And simple.
 
 
 				
