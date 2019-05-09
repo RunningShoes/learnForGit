@@ -131,4 +131,17 @@ date: 05_09:
 
 	    git上学习别人的库的方法：
 		1.点击 fork
-		2.git@github.com:RunningShoes/bootstrap.git		
+		2.git@github.com:RunningShoes/bootstrap.git	
+
+
+	    git上的配置：每个仓库的Git配置文件都放在.git/config文件中
+		
+		--global表示全局配置，对当前用户生效，不加的话只对当前的仓库生效
+
+		忽略一些特殊文件，包含.ignore文件就行，可以去https://github.com/github/gitignore找
+		git config --global color.ui true
+					   :显示颜色
+		git config --global alias.co checkout     co代替checkout
+		git config --global alias.ci commit	  ci代替commit
+		git config --global alias.br branch	  br代替branch
+					   :缩写命令行，简写	
