@@ -96,3 +96,9 @@ date: 05_08:   分支管理：
 	     
 	        git branch -d branchname   :删除分支
 		git branch -D branchname   :强制删除该条分支
+
+date: 05_09:   
+		git remote -v              :查看远程分支的信息
+		
+		git branch --set-upstream-to  origin/<branch-name>   <branch-name>
+					   :把本地分支和远程分支链接起来
