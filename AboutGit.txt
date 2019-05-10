@@ -1,0 +1,3 @@
+date: 05_10
+	git支持多种协议，包括http，ssh，git协议。
+	git中的文建分为：tracked 以及untracked，已跟踪和未跟踪两种情况
