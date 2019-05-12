@@ -126,4 +126,4 @@ date: 05_09:
 
 	    git上学习别人的库的方法：
 		1.点击 fork
-		2.git@github.com:RunningShoes/bootstrap.git		
+		2.git clone git@github.com:RunningShoes/bootstrap.git		
