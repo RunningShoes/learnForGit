@@ -13,6 +13,7 @@ date：04_17
 	git 提交代码：
 		git add <file>     //把文件添加到暂存区（index，stage）
 		git commit -m "注释"    //把暂存区的文件提交到主干
+					//或者用 git commit -a -m "注释"
 
 date: 04_18:
 
